@@ -1,14 +1,15 @@
 name: riverpod_offline
-description: A starting point for Dart libraries or applications.
+description: Persist riverpod state offline using Hive
 version: 1.0.0
-# repository: https://github.com/my_org/my_repo
+repository: https://github.com/gabsn/riverpod_offline
 
 environment:
   sdk: ^3.0.5
 
-# Add regular dependencies here.
 dependencies:
-  # path: ^1.8.0
+  easy_debounce: ^2.0.3
+  hive: ^2.2.3
+  hooks_riverpod: ^2.4.1
 
 dev_dependencies:
   lints: ^2.0.0

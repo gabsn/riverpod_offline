@@ -1,8 +1,8 @@
-/// Support for doing something awesome.
+/// Persist riverpod provider state using Hive
 ///
-/// More dartdocs go here.
+/////
 library;
 
-export 'src/riverpod_offline_base.dart';
-
-// TODO: Export any libraries intended for clients of this package.
+export 'src/persisted_state.dart';
+export 'src/persisted_notifier.dart';
+export 'src/serializable.dart';
